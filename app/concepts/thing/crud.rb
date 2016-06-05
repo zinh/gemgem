@@ -12,7 +12,6 @@ class Thing < ActiveRecord::Base
     end
 
     def process(params)
-      thing = Thing.new
       validate(params[:thing]) do
         contract.save
       end
