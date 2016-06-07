@@ -49,10 +49,11 @@ group :test do
   gem 'minitest-around'
 end
 
-gem 'cells'
+gem 'cells-rails'
+gem 'cells-hamlit'
 gem 'reform'
 gem 'reform-rails'
 # gem 'trailblazer'
 gem 'trailblazer-rails'
 gem 'simple_form'
-gem 'haml'
+gem 'hamlit'
