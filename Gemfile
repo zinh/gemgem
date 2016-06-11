@@ -47,6 +47,7 @@ group :test do
   gem 'minitest-rails'
   gem 'database_cleaner'
   gem 'minitest-around'
+  gem 'minitest-rails-capybara'
 end
 
 gem 'cells-rails'
