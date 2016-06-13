@@ -77,6 +77,8 @@ GEM
       declarative (~> 0.0.6)
       representable (>= 2.4.0, <= 3.1.0)
       uber
+    email_validator (1.6.0)
+      activemodel
     erubis (2.7.0)
     execjs (2.7.0)
     globalid (0.3.6)
@@ -219,6 +221,7 @@ DEPENDENCIES
   cells-rails
   coffee-rails (~> 4.1.0)
   database_cleaner
+  email_validator
   hamlit
   jbuilder (~> 2.0)
   jquery-rails

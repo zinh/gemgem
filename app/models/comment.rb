@@ -6,6 +6,7 @@
 #  body     :text
 #  thing_id :integer
 #  user_id  :integer
+#  weight   :integer
 #
 
 class Comment < ActiveRecord::Base
